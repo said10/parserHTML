@@ -8,13 +8,21 @@ Installation from npm
 npm i parser-html
 ```
 
-OR use JS File in dist/parser-html.js
+For Browser Use
 ```html
 <script src="js/dist/parser-html.js"></script>
 ```
 
-## parse
-Parse the HTML Code to JS Object 
+## Init Parser Object
+for Node JS
+```js
+var parserHtml = require("parser-html");
+```
+for Browser
+```js
+var parserHtml = parserHTML;
+```
+
 ```js
 var template = `
     <div class='shadow background box20 white-color relative'>
@@ -23,8 +31,8 @@ var template = `
         </div>
     </div>
 `; 
-var parser = new ParserHTML();
-parser.parse(template, function(data) {
+
+parserHtml.parse(template, function(data) {
   console.log(data);
   // return the Tree Object
 });

@@ -1,6 +1,6 @@
 {
   "name": "parserHTML",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "convert HTML Code to JS object",
   "main": "index.js",
   "scripts": {

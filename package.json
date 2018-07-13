@@ -1,5 +1,5 @@
 {
-  "name": "parserHTML",
+  "name": "parser-html",
   "version": "1.0.4",
   "description": "convert HTML Code to JS object",
   "main": "index.js",

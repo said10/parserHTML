@@ -13,10 +13,12 @@
     "url": "git+https://github.com/said10/parserHTML.git"
   },
   "keywords": [
+    "parser html",
+    "html parser",
     "parser",
     "parserHTML",
-    "HTML-to-JS",
-    "HTML-to-JS-Object"
+    "HTML to JS",
+    "HTML to Object"
   ],
   "author": "Said Bensamdi",
   "license": "MIT",

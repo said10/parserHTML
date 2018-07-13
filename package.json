@@ -1,6 +1,6 @@
 {
   "name": "parserHTML",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "convert HTML Code to JS object",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "HTML-to-JS-Object",
   ],
   "author": "Said Bensamdi",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",

@@ -1,6 +1,18 @@
 # parserHTML
 JS library to convert HTML Code to JS Object
 
+
+## Installation
+Installation from npm
+```js
+npm i parser-html
+```
+
+OR use JS File in dist/parser-html.js
+```html
+<script src="js/dist/parser-html.js"></script>
+```
+
 ## parse
 Parse the HTML Code to JS Object 
 ```js
